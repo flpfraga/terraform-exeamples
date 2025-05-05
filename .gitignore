@@ -1,0 +1,13 @@
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar configurações de IDE
+**/*.vscode/
+**/*.idea/
+
+# Ignorar arquivos específicos
+**/*.terraform/
+**/*.terraform.lock.hcl
+**/*.terraform.tfstate
+**/*.terraform.tfstate.backup
